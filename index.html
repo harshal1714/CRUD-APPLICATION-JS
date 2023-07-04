@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Table</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Management System</h1>
+        <form method="get" id="form">
+            <input type="text" name="Name"placeholder="Name" id="name" />
+            <input type="email" name="Email" id="email" placeholder="Email" />
+            <input type="number" name="GPA" placeholder="GPA" id="gpa" />
+            <input type="number" placeholder="Age" name="Age" id="age" />
+            <input type="text" name="Degree" placeholder="Degree" id="degree" />
+            <input type="submit" id="submit-btn" value="Add Student" placeholder="Add Student">
+        </form>
+
+        <input type="text" placeholder="Search By Name, email or degree" id="search-box">
+
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>STUDENT NAME</th>
+                    <th>EMAIL</th>
+                    <th>AGE</th>
+                    <th>GPA</th>
+                    <th>DEGREE</th>
+                </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+        </table>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

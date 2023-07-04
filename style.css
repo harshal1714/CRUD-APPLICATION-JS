@@ -1,0 +1,117 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 80px;
+    width:1100px ;
+    background-color: #111;
+    color: #fff;
+    padding: 40px;
+    height: 100vh;
+    margin-bottom: 80px;
+    padding-right: 80px;
+}
+
+.container h1{
+    color: #FFF;
+    font-size: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.container input{
+    border: 1px solid #FFF;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    margin: 17px;
+    height: 32px;
+    background-color: #111;
+    padding-left: 12px;
+}
+
+#submit-btn{
+    height: 32px;
+    width: 330px;
+    background: #FFF;
+    color: #000;
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#search-box{
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+table{
+    border: 1px solid #FFF;
+    table-layout: fixed;
+    width: 100%;
+    margin: 20px;
+    border-collapse: collapse;
+
+}
+
+th{
+    color: #FFF;
+    font-size: 22px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px;
+}
+
+td{
+    color: #FFF;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+    text-align: center;
+}
+
+
+thead th:nth-child(1){
+    width: 80px;
+}
+
+
+thead th:nth-child(2){
+    width: 250px;
+}
+
+thead th:nth-child(3){
+    width: 250px;
+}
+
+thead th:nth-child(1){
+    width: 80px;
+}
+
+table, th, td {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+
